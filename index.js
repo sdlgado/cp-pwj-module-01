@@ -1,8 +1,9 @@
+/*
 console.log("hello");
 
 //alert('BINGO!')
 
-/*
+
 const a = 'smoothie';
 console.log(a);
 
@@ -12,7 +13,7 @@ console.log(someNumber);
 const age = prompt('What is your age?');
 
 document.getElementById('title').innerHTML = age;
-*/
+
 
 // Numbers
 
@@ -92,4 +93,22 @@ let truth = false; // boolean
 let groceries = ['apple','banana','oranges'] // array
 let random; //undefined
 let noyhing = null; // value null
+*/
+// Strings in Js
+
+let fruit = 'banana';
+let moreFruits = 'banana\napple'; // new line
+
+console.log(moreFruits);
+console.log(fruit.length);
+console.log(fruit.indexOf('nan'));
+console.log(fruit.slice(2, 6));
+console.log(fruit.replace('ban', '123'));
+console.log(fruit.toUpperCase());
+console.log(fruit.toLowerCase());
+console.log(fruit.charAt(2));
+console.log(fruit.split(''));
+console.log(fruit.split(',')); // aplit by a comma
+
+
 
