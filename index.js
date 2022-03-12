@@ -39,7 +39,7 @@ num1 += 10;
 console.log(num1);
 
 // Functions
-// 1. Create a function
+// Create a function
 
 function fun() {
     console.log('this is a function');
@@ -66,3 +66,19 @@ function someNumbers(num1,num2) {
 someNumbers(12, 15);
 someNumbers('12', 15);
 someNumbers('12', '15');
+
+// While loops
+
+var num = 0;
+
+while (num < 100) {
+    num++;
+    // num += 1;
+    console.log(num);
+}
+
+// For loop
+
+for (let num = 0; num < 100; num++) {
+    console.log(num);
+}
