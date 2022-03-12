@@ -79,6 +79,17 @@ while (num < 100) {
 
 // For loop
 
-for (let num = 0; num < 100; num++) {
+for (let num = 0; num <= 100; num++) {
     console.log(num);
 }
+
+// Data types
+
+let yourAge = 31; // number
+let yourName = "Sergio"; // string
+let fullName = {first: 'Sergio', last: 'Delgado'}; // Object
+let truth = false; // boolean
+let groceries = ['apple','banana','oranges'] // array
+let random; //undefined
+let noyhing = null; // value null
+
