@@ -110,5 +110,21 @@ console.log(fruit.charAt(2));
 console.log(fruit.split(''));
 console.log(fruit.split(',')); // aplit by a comma
 
+let fruits = ['banana', 'apple', 'orange'];
+fruits = new Array('Banana', 'apple', 'oranges', 'watermelon');
 
+console.log(fruits[2]); // access by index
 
+fruits[0] = 'pear';
+
+console.log(fruits);
+
+//array commen methods
+for (let i = 0; i < fruits.length; i++) {
+   console.log(fruits[i]); 
+}
+
+console.log('to string', fruits.toString());
+
+console.log(fruits.join(' * '));
+console.log(fruits, fruits.pop(), fruits);
